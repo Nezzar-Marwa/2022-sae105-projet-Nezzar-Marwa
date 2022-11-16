@@ -1,36 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen,}"></html>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kairo</title>
+    <title>Kairos</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <style>
+      .menu{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: #fff;
+        display: grid;
+        place-content: center;
+      }
+      .header__menuBtn{
+        position: relative;
+        z-index: 10;
+      }
+      .noscroll,
+      .noscroll body {
+        overflow: hidden;
+       }
+    </style>
 </head>
 <body>
  <header>
-<a>
-    
-</a>
+  <a href="/">
+    <img src="public/icon/kairos.webp" alt="logo kairos">
+    </a>
 <button>
   <span></span>
 </button>
+<h1>Kairos</h1>
   <nav>
+    <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__menuBtn"><ul><li><a href="#"><img src="public/icon/menu.webp" alt="menu"></ul></button> 
+    <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms
+    class="menu"
+    >
+    <h1>CONTENU</h1>
     <ul>
-        <li><a href="works.html">Works</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="team.html">Team</a></li>
+        <li><a href="#"><img src="public/icon/film.webp" alt="film"><h1>K-12 un film à ne pas manquer</h1>
+        <li><a href="#"><img src="public/icon/livre.webp" alt="livre"><h1>Alice et le pays des merveilles</h1>
+        <li><a href="#"><img src="public/icon/musique.webp" alt="musique"><h1>Freak une musique surprenante</h1>
+        <li><a href="#"><img src="public/icon/lieux.webp" alt="musique"><h1>Le château de Craigdarroch</h1>
+        <li><a href="#"><img src="public/icon/regret.webp" alt="regret"><h1>la monté des discriminations</h1>
+        <li><a href="#"><img src="public/icon/espoir.webp" alt="espoir"><h1>Une lueur d'espoir</h1>  
     </ul>
-  </nav>
   <ul>
-    <li><a href="#"><img src="assets/img/Behance.webp" alt="logo Behance">
-    <li><a href="#"><img src="assets/img/Dribble.webp" alt="logo Dribble">
-    <li><a href="#"><img src="assets/img/Twitter.webp" alt="logo Twitter">
+    <h1>EN SAVOIR PLUS</h1>
+        <li><a href="A PROPOS.html">A PROPOS</a></li>
+        <li><a href="NOUS CONTACTER.html">NOUS CONTACTER</a></li>
+        <li><a href="AUTRES PROJETS">AUTRES PROJET</a></li>
   </ul>
-  <ul>
-    <li><a href="Terms-conditions.html">Terms & conditions </a></li>
-    <li><a href="Privacy-Policy.html">Privacy-Policy</a></li>
-</ul>
+</nav>
  <main>
   <h1>Building Brands.</h1>
   <p>We love to explore new ways to engage with brands and reach new levels of creative outlets through design.
@@ -44,5 +70,6 @@
     <h2>Here are some exciting new projects we’ve been working on</h2>
     <article>
       <a href="#">
-        <img src="assets/img/k12-image-02" alt="k12-image-02">
-        <p>Branding</p>
+        <img src="public/img/k12-image-02.webp" alt="k12-image-02">
+        <p>extrait du film k-12</p>
+      
