@@ -27,6 +27,7 @@
        }
     </style>
 </head>
+
 <body>
  <header>
   <a href="/">
@@ -37,7 +38,8 @@
 </button>
 <h1>Kairos</h1>
   <nav>
-    <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__menuBtn"><ul><li><a href="#"><img src="public/icon/menu.webp" alt="menu"></ul></button> 
+    <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__menuBtn">
+      <ul><li><a href="#"><img src="public/icon/menu.webp" alt="menu"></ul></button> 
     <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms
     class="menu"
     >
@@ -56,24 +58,35 @@
         <li><a href="NOUS CONTACTER.html">NOUS CONTACTER</a></li>
         <li><a href="AUTRES PROJETS">AUTRES PROJET</a></li>
   </ul>
-</nav>
- <main>
+ </nav>
+</header>
+ 
+<main>
   <p>Bienvenue cher lecteur, ici nous sommes sur Kairos un site qui peut être qualifié de capsule temporelle virtuelle.</p>
+  <img src="public/img/debut-image-01.webp" alt="début-image-01">
   <p>laisse ton intuition te guider
 </p>
 
    <section>
-    <h1>à découvrir</h1>
+    <h2>à découvrir</h2>
     <article>
       <a href="#">
         <img src="public/img/k12-image-02.webp" alt="k12-image-02">
         <p>extrait du film k-12</p>
         <p>Plongez dans le monde fantastique de K-12,</p>
-        <img src="public/img/k12-image-02.webp" alt="k12-image-02">
-        <p>extrait du film k-12</p>
-        <p>Plongez dans le monde fantastique de K-12,</p>
-
-        <a href="mailto:hello@bbrands.co.uk">
-          <img src="assets/img/Send.webp" alt="logo Send">hello@bbrands.co.uk
-        </a>
+        <img src="public/img/freak-image-3.webp" alt="freak-image-03">
+        <p>extrait de la musique freak de sub urban</p>
+        <p>Découvrez la troupe de cirque de Sub urban</p>
+        <img src="public/img/alice-image-4.webp" alt="alice-image-04">
+        <p>illustration du roman de Lewis Caroll</p>
+        <p>Une balade dans le monde des merveilles, ça vous dit?</p>
+        <img src="public/img/chateau-image-05.webp" alt="chateau-image-05">
+        <p>photographie du château</p>
+        <p>une petite visite d'un Château emblématique</p>
+        <img src="public/img/regret-image-7.webp" alt="regret-image-07">
+        <p>image illustrant les discriminations</p>
+        <p>Un point sur l’injustice et la discrimination</p>
+        <img src="public/img/espoir-image-06.webp" alt="espoir-image-06">
+        <p>image illustrant l'espoir pour la société</p>
+        <p>Une lueur d’espoir pour la société</p>
       
