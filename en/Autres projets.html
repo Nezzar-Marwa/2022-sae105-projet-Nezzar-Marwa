@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en"x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen,}"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kairos</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <style>
+      .menu{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: #fff;
+        display: grid;
+        place-content: center;
+      }
+      .header__menuBtn{
+        position: relative;
+        z-index: 10;
+      }
+      .noscroll,
+      .noscroll body {
+        overflow: hidden;
+       }
+    </style>
+</head>
+
+<body>
+ <header>
+  <a href="/">
+    <img src="public/icon/kairos.webp" alt="logo kairos">
+    </a>
+<button>
+  <span></span>
+</button>
+<h1>Kairos</h1>
+  <nav>
+    <a href="#"><img src="public/icon/anglais.webp"></a>
+    <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__menuBtn">
+      <ul><li><a href="#"><img src="public/icon/menu.webp" alt="menu"></ul></button> 
+    <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms
+    class="menu"
+    >
+    <h1>CONTENU</h1>
+    <ul>
+        <li><a href="#"><img src="public/icon/film.webp" alt="film"><h1>K-12 un film à ne pas manquer</h1>
+        <li><a href="#"><img src="public/icon/livre.webp" alt="livre"><h1>Alice et le pays des merveilles</h1>
+        <li><a href="#"><img src="public/icon/musique.webp" alt="musique"><h1>Freak une musique surprenante</h1>
+        <li><a href="#"><img src="public/icon/lieux.webp" alt="musique"><h1>Le château de Craigdarroch</h1>
+        <li><a href="#"><img src="public/icon/regret.webp" alt="regret"><h1>la monté des discriminations</h1>
+        <li><a href="#"><img src="public/icon/espoir.webp" alt="espoir"><h1>Une lueur d'espoir</h1>  
+    </ul>
+  <ul>
+    <h1>EN SAVOIR PLUS</h1>
+        <li><a href="A PROPOS.html">A PROPOS</a></li>
+        <li><a href="NOUS CONTACTER.html">NOUS CONTACTER</a></li>
+        <li><a href="AUTRES PROJETS">AUTRES PROJET</a></li>
+  </ul>
+ </nav>
+
+ <ul>
+  <a href="#">Tik Tak</a><h3>Camilia Mokdad</h3>
+  <a href="#">Vers un monde utopique</a><h3>Alban Luc</h3>
+  <a href="#">Mind interest</a><h3>Marion Mura</h3>
+  <a href="#">What it was to be eighteen</a><h3>Romane Miguel</h3>
+  <a href="#">Time loop</a><h3>Marie-Claire Naze</h3>
+  <a href="#">Last time</a><h3>Thomas Poupon</h3>
+  <a href="#">FF all time</a><h3>Yassir Ouadghiri</h3>
+  <a href="#">Korean notes</a><h3>Léopold Ohnimus</h3>
+  <a href="#">Continuous évolution</a><h3>Yann Pernette</h3>
+  <a href="#">What have we become</a><h3>Evan Moulin</h3>
+  <a href="#">à quoi ressemblera le monde</a><h3>Arilès Messaoudi</h3>
+  <a href="#">Denonciation of the current world</a><h3>Sofiane Mouadeb</h3>
+  <a href="#">tiktak</a>
+</header>
+
+<footer>
+  <h3>Nous suivre</h3>
+  <ul>
+    <a href="instagram">
+      <img src="public/icon/instagram.svg" alt="Page instagram">
+    </a>
+    <a href="facebook>">
+      <img src="public/icon/facebook.svg" alt="Page facebook">
+    </a>
+    <a href="Twitter">
+      <img src="public/icon/twitter.svg" alt="Page twitter">
+    </a>
+  </ul>
+  <nav>
+    <a href="à propos.html">Section à propos
+    </a>
+    <a href="Contact.html">Section Contact
+    </a>
+    <a href="Glossaire.html">Section Glossaire
+    </a>
+    <a href="Autres projets.html">Section Autres projets
+    </a>
+  </nav>
+  <div>
+    <h3>Mentions légales</h3>
+    <p>Projet réalisé dans le cadre d’un exercice 
+      pédagogique au département <a href="https://mmi-montbeliard.nathanvanbignootvincler.fr/"> MMi de Montbéliard.</a></p>
+    <p>Fait par Marwa Nezzar MMI 1 groupe B2</p>
+  </div>
+</footer>

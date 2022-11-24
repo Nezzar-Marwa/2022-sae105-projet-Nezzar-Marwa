@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en"x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen,}"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kairos</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <style>
+      .menu{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: #fff;
+        display: grid;
+        place-content: center;
+      }
+      .header__menuBtn{
+        position: relative;
+        z-index: 10;
+      }
+      .noscroll,
+      .noscroll body {
+        overflow: hidden;
+       }
+    </style>
+</head>
+
+<body>
+ <header>
+  <a href="/">
+    <img src="public/icon/kairos.webp" alt="logo kairos">
+    </a>
+<button>
+  <span></span>
+</button>
+<h1>Kairos</h1>
+  <nav>
+    <a href="#"><img src="public/icon/anglais.webp"></a>
+    <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__menuBtn">
+      <ul><li><a href="#"><img src="public/icon/menu.webp" alt="menu"></ul></button> 
+    <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms
+    class="menu"
+    >
+    <h1>CONTENU</h1>
+    <ul>
+        <li><a href="#"><img src="public/icon/film.webp" alt="film"><h1>K-12 un film à ne pas manquer</h1>
+        <li><a href="#"><img src="public/icon/livre.webp" alt="livre"><h1>Alice et le pays des merveilles</h1>
+        <li><a href="#"><img src="public/icon/musique.webp" alt="musique"><h1>Freak une musique surprenante</h1>
+        <li><a href="#"><img src="public/icon/lieux.webp" alt="musique"><h1>Le château de Craigdarroch</h1>
+        <li><a href="#"><img src="public/icon/regret.webp" alt="regret"><h1>la monté des discriminations</h1>
+        <li><a href="#"><img src="public/icon/espoir.webp" alt="espoir"><h1>Une lueur d'espoir</h1>  
+    </ul>
+  <ul>
+    <h1>EN SAVOIR PLUS</h1>
+        <li><a href="A PROPOS.html">A PROPOS</a></li>
+        <li><a href="NOUS CONTACTER.html">NOUS CONTACTER</a></li>
+        <li><a href="AUTRES PROJETS">AUTRES PROJET</a></li>
+  </ul>
+ </nav>
+</header>
+
+<main>
+  <section>
+  <article>
+    <h1>Un livre à absoluement lire</h1>
+    <img src="#" alt="illustration du roman Alice au pays des merveilles">
+    <h1>L'histoire d'Alice au pays des merveilles</h1>
+     <p>Nous suivons l'histoire de Alice qui est dans son jardin avec sa soeur elle trouve le livre que sa soeur lit très ennuyeux car 
+      il ne contient pas d’image, elle va alors apercevoir un lapin blanc qui porte des vétements qui sait parler et qui regarde une montre elle va alors la suivre dans son terrier puis faire une chute sans fin elle va alors se retrouver dans un monde merveilleux et très perturbant. Elle sera aussi entourée de personnes très étranges et qui semblent toutes folles selon la définition dans son monde ces personnes se disent folles mais dans leur définition la follie est une forme de normalité, Alice va devoir parcourir ce nouveau monde merveilleux et va essayer de retrouver le chemin pour rentrer chez elle cependant elle va être confronter à beaucoups d’épreuve et va devoir faire confiance à des gens qu’elle ne connait pas tout en essayant de les comprendre.
+     </p>
+    <h1>De l’autre côté du miroir</h1>
+    <p>Le thème principal est la normalité et la folie, en effet depuis le départ on peux voir qu’alice n’entre pas dans les normes de la société à la rigueur morale strict dans laquelle elle vivait elle s’ennui  face à ce qui devrait normalement amuser une jeune fille de son âge, 
+      elle préfère suivre un lapin et arriver dans un monde fantastique dans lequel elle est aussi vu comme étrange et folle alors que pour elle se sont les personnes en face qui le sont même si ces personnages se décrivent eux même comme étant fou la folie constitue pour eux une norme ou une normalité et veulent même essayer de l’expliquer à alice qui ne veut rien entendre car elle se considère comme normale, elle va cependant de plus en plus apprendre à accepter la “folie de ses nouveaux amis” et même accepter le fait qu’elle ne fasse rien qui est dans les normes. Le livre nous parle donc de l’acceptation de sa folie et de ne pas avoir peur de parler fierement de ses différences, de nombreux personnages lui on permis cette acceptation comme le chat du cheshire ou le chapelier fou, le chat est la pour guider Alice pour lui indiquer le chemin ainsi que pour comprendre les habitants.
+      </p>
+      <div><p>"Soyez ce que vous voudriez avoir l'air d'être"</p></div>
+      <h1>Un auteur inventif</h1>
+      <img src="#" alt="Caroll Lewis">
+      <p>Carroll Lewis de son vrai nom Charles Lutwidge Dodgson est un romancier, un photographe et un professeur de mathématique britannique né en le 27 janvier 1832 et mort le 14 janvier 1898, il à étudié puis enseigné en la Christ church d’Oxford et il est connu pour avoir écrit le roman à succès “Les aventures d’alice au pays des Merveilles” en 1865 ainsi que la suite du roman “de l’autre côté du miroir” en 1871</p>
+    <h1>La folie une forme de normalité</h1>
+    <p>« Minet du Cheshire… », commença-t-elle assez timidement, car elle ne savait pas trop si ce nom lui plairait. Le Chat se contenta de sourire plus largement. « Allons, jusqu’ici il est satisfait, pensa Alice, qui continua : Voudriez-vous me dire, s’il vous plaît, quel chemin je dois prendre pour m’en aller d’ici ?
+
+      – Cela dépend beaucoup de l’endroit où tu veux aller, répondit le chat.
+      
+      – Peu m’importe l’endroit… dit Alice.
+      
+      – En ce cas, peu importe la route que tu prendras, répliqua-t-il.
+      
+      – … pourvu que j’arrive quelque part, ajouta Alice en guise d’explication.
+      
+      – Oh, tu ne manqueras pas d’arriver quelque part, si tu marches assez longtemps. »
+      
+      Alice comprit que c’était indiscutable ; en conséquence elle essaya une autre question : « Quelle espèce de gens trouve-t-on dans ces parages ?
+      
+      – Dans cette direction-ci, répondit le Chat, en faisant un vague geste de sa patte droite, habite un Chapelier ; et dans cette direction-là (il fit un geste de sa patte gauche), habite un Lièvre de Mars. Tu peux aller rendre visite à l’un ou à l’autre : ils sont fous tous les deux.
+      
+      – Mais je ne veux pas aller parmi les fous, fit remarquer Alice.
+      
+      – Impossible de faire autrement, dit le Chat ; nous sommes tous fous ici. Je suis fou. Tu es folle.
+      
+      – Comment savez-vous que je suis folle ? demanda Alice.
+      
+      – Tu dois l’être, répondit le Chat, autrement tu ne serais pas venue ici. »
+      
+      Alice pensait que ce n’était pas une preuve suffisante, mais elle continua : « Et comment savez-vous que vous êtes fou ?
+      
+      – Pour commencer, dit le Chat, est-ce que tu m’accordes qu’un chien n’est pas fou ?
+      
+      – Sans doute.
+      
+      – Eh bien, vois-tu, continua le Chat, tu remarqueras qu’un chien gronde lorsqu’il est en colère, et remue la queue lorsqu’il est content. Or, moi, je gronde quand je suis content, et je remue la queue quand je suis en colère. Donc, je suis fou.
+      
+      – Moi j’appelle cela ronronner, pas gronder, objecta Alice.
+      
+      – Appelle cela comme tu voudras, dit le Chat. Est-ce que tu es de la partie de croquet de la Reine, cet après-midi ?
+      
+      – Je voudrais bien, répondit Alice, mais je n’ai pas encore été invitée.
+      
+      – Tu m’y verras », dit le Chat et il disparut.
+      
+      Alice ne s’en étonna guère, tellement elle était habituée à voir se passer des choses bizarres. Pendant qu’elle regardait l’endroit où le Chat s’était trouvé, il réapparut.
+      
+      « A propos, fit-il, qu’est devenu le bébé ? J’allais oublier de te le demander.
+      
+      – Il s’est transformé en cochon », répondit Alice d’une voix calme, comme si c’était la chose la plus naturelle du monde.
+      
+      « Cela ne m’étonne pas », déclara le Chat, et il disparut à nouveau.</p>
+    <p>Cet extrait nous montre l’interaction de Alice et du chat de cheshire qui essaye d’expliquer à Alice qu’il est fou et que tout le monde y compris elle est fou et que c’est normal il va essayer de la convaincre,
+      son discours nous fait nous dire que chez eux la folie semble être la norme et que tout le monde peut importe le type de folie qu’ils ont sont les bienvenus.</p>
+  </article>
+  </section>
+</main>

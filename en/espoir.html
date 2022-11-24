@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en"x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen,}"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kairos</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <style>
+      .menu{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: #fff;
+        display: grid;
+        place-content: center;
+      }
+      .header__menuBtn{
+        position: relative;
+        z-index: 10;
+      }
+      .noscroll,
+      .noscroll body {
+        overflow: hidden;
+       }
+    </style>
+</head>
+
+<body>
+ <header>
+  <a href="/">
+    <img src="public/icon/kairos.webp" alt="logo kairos">
+    </a>
+<button>
+  <span></span>
+</button>
+<h1>Kairos</h1>
+  <nav>
+    <a href="#"><img src="public/icon/anglais.webp"></a>
+    <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__menuBtn">
+      <ul><li><a href="#"><img src="public/icon/menu.webp" alt="menu"></ul></button> 
+    <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms
+    class="menu"
+    >
+    <h1>CONTENU</h1>
+    <ul>
+        <li><a href="#"><img src="public/icon/film.webp" alt="film"><h1>K-12 un film à ne pas manquer</h1>
+        <li><a href="#"><img src="public/icon/livre.webp" alt="livre"><h1>Alice et le pays des merveilles</h1>
+        <li><a href="#"><img src="public/icon/musique.webp" alt="musique"><h1>Freak une musique surprenante</h1>
+        <li><a href="#"><img src="public/icon/lieux.webp" alt="musique"><h1>Le château de Craigdarroch</h1>
+        <li><a href="#"><img src="public/icon/regret.webp" alt="regret"><h1>la monté des discriminations</h1>
+        <li><a href="#"><img src="public/icon/espoir.webp" alt="espoir"><h1>Une lueur d'espoir</h1>  
+    </ul>
+  <ul>
+    <h1>EN SAVOIR PLUS</h1>
+        <li><a href="A PROPOS.html">A PROPOS</a></li>
+        <li><a href="NOUS CONTACTER.html">NOUS CONTACTER</a></li>
+        <li><a href="AUTRES PROJETS">AUTRES PROJET</a></li>
+  </ul>
+ </nav>
+</header>
+
+<main>
+  <section>
+  <article>
+    <h1>Une lueur d'espoir</h1>
+    <img src="#" alt="image représentant les discriminations">
+    <h1>La montée du harcelement</h1>
+     <p>Aujourd’hui à l’école un enfantsur 10 est victime de harcèlement cela fait un million d’enfant qui en subissent les conséquences ce chiffre est même en augmentation et continu même après l’école sur internet avec la cyber harcèlement.
+      Des milliers d’enfants subissent cela à cause de leurs différences, certains se font discriminer pour des handicaoes physiques et mentaux d’autres se font harceler pour leur sexualité, leur ifentité de genre et même pour leurs styles vestimentaires, ce harcèlement peut être morale ou même physique, dans le monde du travail les femmes sont en majorité touchées par le harcelement qu’il soit sexuel même hors du travail elles peuvent en subir puisque en juillet 2020 81% des femmes ont été victime 
+     </p>
+    <h1>La montée du racisme</h1>
+    <p>En 2020 aux etats unis après les manifestation black lives matter les actes racistes ont augmenté de 40% sans qu’aucunes réelles mesures n’aient été prise, de nombreuse victimes après la mort de George Floyd on été découvertes.
+      Le racisme envers les asiatiques s’est accentué à cause du covid, les déninciations ont fortement augmentées.
+      Le racisme envers les natifs américains aussi à augmenté les femmes natives sont les premières victimes avec les femmes noir d’enlevelement et de racisme une loi est même sur le point de passer cette loi vise à lever l’interdiction de la loi de protection des enfants natifs. Au canada les dernières réserves des natifs sont privées d’eau propre et potable
+      De nombreux autres actes racistes sont en augmentation
+      </p>
+    <h1>La montée du sexisme</h1>
+    <p>En 2019 87% des victimes de délits sexistes sont des femmes. L’écart salariale à travail égal et à diplôme égal et de 9%;
+      En 2022 on compte déjà 79 femmes victime de féminicide.
+      Tous ces chiffres sont en augmentation,
+      aux états unis la loi qui autorisait l’accès à l’avortement dans tous les états à été remise en question et interdite dans plusieurs états cependant cela ne va pas arrêter les avortements cela va juste mettre en danger la vie des femmes qui vont aller les pratiquer dans dans cliniques clandestines</p>
+    <h1>La montéE de la LGBTPHOBIE</h1>
+      <p>Les actes anti-lgbt ont augmentés de 28% en 2021 en France.
+        aux états unis une loi qui interdit aux élèves de parler de sujet lié à l’identité de genre est passée cela veut dire que les campagnes de sensibilisation au harcèlement lié à la lgbtphobie sont aussi interdites les conséquences sont négatives puisque de nombreux enfants ne seront pas en mesure de comprendre leur identité ou celle des autres ou d’être en sécurité </p>
+  </article>
+  </section>
+</main>

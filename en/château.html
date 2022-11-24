@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en"x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen,}"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kairos</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <style>
+      .menu{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: #fff;
+        display: grid;
+        place-content: center;
+      }
+      .header__menuBtn{
+        position: relative;
+        z-index: 10;
+      }
+      .noscroll,
+      .noscroll body {
+        overflow: hidden;
+       }
+    </style>
+</head>
+
+<body>
+ <header>
+  <a href="/">
+    <img src="public/icon/kairos.webp" alt="logo kairos">
+    </a>
+<button>
+  <span></span>
+</button>
+<h1>Kairos</h1>
+  <nav>
+    <a href="#"><img src="public/icon/anglais.webp"></a>
+    <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__menuBtn">
+      <ul><li><a href="#"><img src="public/icon/menu.webp" alt="menu"></ul></button> 
+    <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms
+    class="menu"
+    >
+    <h1>CONTENU</h1>
+    <ul>
+        <li><a href="#"><img src="public/icon/film.webp" alt="film"><h1>K-12 un film à ne pas manquer</h1>
+        <li><a href="#"><img src="public/icon/livre.webp" alt="livre"><h1>Alice et le pays des merveilles</h1>
+        <li><a href="#"><img src="public/icon/musique.webp" alt="musique"><h1>Freak une musique surprenante</h1>
+        <li><a href="#"><img src="public/icon/lieux.webp" alt="musique"><h1>Le château de Craigdarroch</h1>
+        <li><a href="#"><img src="public/icon/regret.webp" alt="regret"><h1>la monté des discriminations</h1>
+        <li><a href="#"><img src="public/icon/espoir.webp" alt="espoir"><h1>Une lueur d'espoir</h1>  
+    </ul>
+  <ul>
+    <h1>EN SAVOIR PLUS</h1>
+        <li><a href="A PROPOS.html">A PROPOS</a></li>
+        <li><a href="NOUS CONTACTER.html">NOUS CONTACTER</a></li>
+        <li><a href="AUTRES PROJETS">AUTRES PROJET</a></li>
+  </ul>
+ </nav>
+</header>
+
+<main>
+  <section>
+  <article>
+    <h1>Un lieu à absoluement visiter</h1>
+    <img src="#" alt="photographie du château de Craigdarroch">
+    <h1>Le château de Craigdarroch</h1>
+     <p>C’est le château du barron Ecossais Robert Dunsmuir l’homme le plus riche de l’époque, ce Chateau à été construit au Canada dans la ville de Victoria entre 1887 et 1890, il est le symbole de l’époque victorienne et à été entirement restauré pour accueillir des visiteurs. De nombreux artisants ont participer à rendre ce chateau plein de mystère en un chef d’oeuvre.
+      Ce chateau est composé de quatres étages de vitres faites par des artisans très talentueux, un bois très qualitatif ainsi que des meubles typique cela montre la fortune immense du propriétaire.
+     </p>
+    <h1>Un style emblématique</h1>
+    <p>Ce château au style british dit bonanza est un exemple typique du type de maison construites à l’époque et est signe d’une grande fortune en effet ce type d’habitation est fait par des propriétaire de haut statut social et possédant une grande richesse, le propriétaire est cependant mort avant la fin de la construction et n’a pas pu voir le résultat final, il à légué sa fortune à sa femme malgré le fait qu’il avait plusieurs enfants.
+      Ce château s’inscrit dans le patrimoine canadien et est aussi un lieu touristique pour se plonger dans le quotidien des familles de l’époque 
+      </p>
+      <h1>L'histoire du propriétaire</h1>
+      <img src="#" alt="Robert Dunsmuir">
+      <p>Robert Dunsmuir est né en 1825 et est mort en 
+        1889) il était entrepreneur dans le domaine des mines il était propriétaire et exploitant de mine il était reconnu comme un personnage historique national par le gouvernement canadien.
+        Il était l’un des fondateurs de l’Esquimalt and Nanaimo Railway Company tout ces projets lui on valu d’être un des hommes les plus riches à l’époque.</p>
+    <h1>Des lieux similaires</h1>
+    <h2>Château d'alnwick(anick) construit 1096</h2>
+    <img src="#" alt="photographie du château d'Alnwick">
+    <h2>Hobbiton Matamata en nouvelle-zélande 1840</h2>
+    <img src="#" alt="hobbiton Matamata">
+    <h2>Château de Craigdarroch 1890</h2>
+    <img src="#" alt="Château de Craigdarroch">
+    <h2>Labyrinthe végétal de Longeleat 1975</h2>
+    <img src="#" alt="photographie du Labyrinthe">
+  </article>
+  </section>
+</main>

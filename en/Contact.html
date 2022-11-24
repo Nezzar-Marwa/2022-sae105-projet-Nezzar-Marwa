@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en"x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen,}"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kairos</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <style>
+      .menu{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: #fff;
+        display: grid;
+        place-content: center;
+      }
+      .header__menuBtn{
+        position: relative;
+        z-index: 10;
+      }
+      .noscroll,
+      .noscroll body {
+        overflow: hidden;
+       }
+    </style>
+</head>
+<body>
+ <header>
+  <a href="/">
+    <img src="public/icon/kairos.webp" alt="logo kairos">
+    </a>
+<button>
+  <span></span>
+</button>
+<h1>Kairos</h1>
+  <nav>
+    <a href="#"><img src="public/icon/anglais.webp"></a>
+    <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__menuBtn">
+      <ul><li><a href="#"><img src="public/icon/menu.webp" alt="menu"></ul></button> 
+    <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms
+    class="menu"
+    >
+    <h1>CONTENU</h1>
+    <ul>
+        <li><a href="#"><img src="public/icon/film.webp" alt="film"><h1>K-12 un film à ne pas manquer</h1>
+        <li><a href="#"><img src="public/icon/livre.webp" alt="livre"><h1>Alice et le pays des merveilles</h1>
+        <li><a href="#"><img src="public/icon/musique.webp" alt="musique"><h1>Freak une musique surprenante</h1>
+        <li><a href="#"><img src="public/icon/lieux.webp" alt="musique"><h1>Le château de Craigdarroch</h1>
+        <li><a href="#"><img src="public/icon/regret.webp" alt="regret"><h1>la monté des discriminations</h1>
+        <li><a href="#"><img src="public/icon/espoir.webp" alt="espoir"><h1>Une lueur d'espoir</h1>  
+    </ul>
+  <ul>
+    <h1>EN SAVOIR PLUS</h1>
+        <li><a href="A PROPOS.html">A PROPOS</a></li>
+        <li><a href="NOUS CONTACTER.html">NOUS CONTACTER</a></li>
+        <li><a href="AUTRES PROJETS">AUTRES PROJET</a></li>
+  </ul>
+ </nav>
+</header>
+
+<section>
+    <header>
+      <h2>Formulaire d'inscription</h2>
+      <p>Une remarque ? une suggestion ? un commentaire ? N’hésitez pas à me la poser.</p>
+    </header>
+    <form action="#">
+      <div>
+        <label for="Prénom">Prénom</label>
+        <input type="text" name="Prénom" id="Prénom">
+      </div>
+      <div>
+        <label for="Nom">Nom</label>
+        <input type="text" name="Nom" id="Nom">
+      </div>
+      <div>
+        <label for="Mail">Mail</label>
+        <input type="text" name="Mail">
+      </div>
+      <div>
+        <label for="Téléphone">Téléphone</label>
+        <input type="text" name="Téléphone">
+      </div>
+      <div>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5"></textarea>
+      </div>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+</main>
