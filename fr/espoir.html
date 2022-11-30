@@ -39,11 +39,11 @@
 <h1>Kairos</h1>
   <nav>
     <ul>
-      <a href="#"><img src="/public/icon/anglais.svg"></a>
-      <li><a href="/en/index.html">Home in english</a></li>
+      <a href="/en/index.html"><img src="/public/icon/anglais.svg"></a>
+      <a href="/en/index.html"></a>
   </ul>     
     <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__menuBtn">
-      <ul><li><a href="#"><img src="/public/icon/menu.svg" alt="menu"></ul></button> 
+      <ul><a href="#"><img src="/public/icon/menu.svg" alt="menu"></ul></button> 
     <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms
     class="menu"
     >
@@ -69,7 +69,7 @@
   <section>
   <article>
     <h1>Une lueur d'espoir</h1>
-    <img src="#" alt="image représentant les discriminations">
+    <img src="/public/img/image_diversité.webp" alt="image représentant la diversité">
     <h1>Les safe spaces sur internet</h1>
      <p>La montée des discriminations a aussi permis la création d’espaces appelés safe space pour que les victimes puissent s'exprimer, 
       se conseiller et se sentir écoutés et compris je vais citer quelques exemples de ces safe spaces et leurs spécificités.

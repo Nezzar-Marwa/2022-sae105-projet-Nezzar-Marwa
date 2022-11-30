@@ -39,11 +39,11 @@
 <h1>Kairos</h1>
   <nav>
     <ul>
-      <a href="#"><img src="/public/icon/anglais.svg"></a>
-      <li><a href="/en/index.html">Home in english</a></li>
+      <a href="/en/index.html"><img src="/public/icon/anglais.svg"></a>
+      <a href="/en/index.html"></a>
   </ul>     
     <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__menuBtn">
-      <ul><li><a href="#"><img src="/public/icon/menu.svg" alt="menu"></ul></button> 
+      <ul><a href="#"><img src="/public/icon/menu.svg" alt="menu"></ul></button> 
     <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms
     class="menu"
     >
