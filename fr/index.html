@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kairos</title>
+    <link rel="stylesheet" href="src/css/style.css">
     <script defer src="https://unpkg.com/alpinejs"></script>
     <style>
       .menu{
@@ -28,39 +29,36 @@
     </style>
 </head>
 
-<body>
  <header class="header">
   <a class="header__link" href="/">
     <img class="header_logo" src="/public/icon/kairos.webp" alt="logo kairos">
     </a>
-    <button class="header__menu-btn" >
-      <span></span>
-    </button>
 <h1 class="header__title">Kairos</h1>
   <nav>
-    <ul>
-      <a href="/en/index.html"><img src="/public/icon/anglais.svg"></a>
+    <ul class="lang">
+      <a class="lang__link" href="/en/index.html"><img class="lang__logo" src="/public/icon/anglais.svg"></a>
       <a href="/en/index.html"></a>
-  </ul>     
-    <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__menuBtn">
+  </ul></nav>
+  
+  <nav class="header__menu">  
+    <button class="header__menuBtn menu-btn" aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__menuBtn">
       <ul><a href="#"><img src="/public/icon/menu.svg" alt="menu"></ul></button> 
     <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms
     class="menu"
     >
-<h1>CONTENU</h1>
-  <ul>
-        <li><a href="k-12.html"><img src="/public/icon/film.svg" alt="film"><h1>K-12 un film à ne pas manquer</h1></a></li>
-        <li><a href="alice.html"><img src="/public/icon/livres.svg" alt="livre"><h1>Alice et le pays des merveilles</h1></a></li>
-        <li><a href="freak.html"><img src="/public/icon/musique.svg" alt="musique"><h1>Freak une musique surprenante</h1></a></li>
-        <li><a href="château.html"><img src="/public/icon/lieux.svg" alt="lieux"><h1>Le château de Craigdarroch</h1></a></li>
-        <li><a href="discrimination.html"><img src="/public/icon/regret.svg" alt="regret"><h1>la monté des discriminations</h1></a></li>
-        <li><a href="espoir.html"><img src="/public/icon/espoir.svg" alt="espoir"><h1>Une lueur d'espoir</h1></a></li>
-    </ul>
-  <ul>
+
+  <h1>CONTENU</h1>
+  <ul class="menu__list">
+        <li class="menu__item"><a class="menu__link" href="k-12.html"><img src="/public/icon/film.svg" alt="film"><h1>K-12 un film à ne pas manquer</h1></a></li>
+        <li class="menu__item"><a class="menu__link" href="alice.html"><img src="/public/icon/livres.svg" alt="livre"><h1>Alice et le pays des merveilles</h1></a></li>
+        <li class="menu__item"><a class="menu__link" href="freak.html"><img src="/public/icon/musique.svg" alt="musique"><h1>Freak une musique surprenante</h1></a></li>
+        <li class="menu__item"><a class="menu__link" href="château.html"><img src="/public/icon/lieux.svg" alt="lieux"><h1>Le château de Craigdarroch</h1></a></li>
+        <li class="menu__item"><a class="menu__link" href="discrimination.html"><img src="/public/icon/regret.svg" alt="regret"><h1>la monté des discriminations</h1></a></li>
+        <li class="menu__item"><a class="menu__link" href="espoir.html"><img src="/public/icon/espoir.svg" alt="espoir"><h1>Une lueur d'espoir</h1></a></li>
     <h1>EN SAVOIR PLUS</h1>
-        <li><a href="à propos.html">A PROPOS</a></li>
-        <li><a href="Contact.html">NOUS CONTACTER</a></li>
-        <li><a href="Autres projets.html">AUTRES PROJET</a></li>
+        <li class="menu__item"><a class="menu__link" href="à propos.html">A PROPOS</a></li>
+        <li class="menu__item"><a class="menu__link" href="Contact.html">NOUS CONTACTER</a></li>
+        <li class="menu__item"><a class="menu__link" href="Autres projets.html">AUTRES PROJET</a></li>
   </ul>
  </nav>
 </header>
@@ -117,6 +115,7 @@
         <p>image illustrant l'espoir pour la société</p>
         <h2><a href="espoir.html">Une lueur d’espoir pour la société</h2></a>  
     </article>
+    
 
     <footer>
       <h3>Nous suivre</h3>
