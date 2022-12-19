@@ -192,19 +192,11 @@
    * Correct the inability to style clickable types in iOS and Safari.
    */
   
-<<<<<<< HEAD
-button,
-  [type="button"],
-  [type="reset"],
-  [type="submit"] {
-    --webkit-appearence: button;
-=======
   button,
   [type="button"],
   [type="reset"],
   [type="submit"] {
     -webkit-appearance: button;
->>>>>>> a4229035288030ed04f13550e41a165160cc2659
   }
   
   /**
@@ -296,11 +288,7 @@ button,
    */
   
   [type="search"] {
-<<<<<<< HEAD
-    --webkit-appearance: textfield; /* 1 */
-=======
     -webkit-appearance: textfield; /* 1 */
->>>>>>> a4229035288030ed04f13550e41a165160cc2659
     outline-offset: -2px; /* 2 */
   }
   
