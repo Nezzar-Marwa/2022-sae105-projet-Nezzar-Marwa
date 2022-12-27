@@ -1,3 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Inter&family=Noto+Serif+Gujarati&display=swap');
 
 @import "vendors/normalize.css";
+
+@import "utils/variables.css";
