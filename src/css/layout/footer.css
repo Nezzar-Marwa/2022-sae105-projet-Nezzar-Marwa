@@ -2,3 +2,38 @@
     background-color:var(--menu);
     position: absolute;
 }
+
+.footer__categorie1{
+    font-family: 'inter';
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.footer__item1{
+   position: absolute; 
+   left: 36%;
+   right: 60%;
+   top: 21%;
+   bottom: 73%;
+   width: 16px;
+}
+
+.footer__item2{
+   position: absolute;
+   left: 49%;
+   right: 49%;
+   top: 19%;
+   bottom: 73%;
+   width: 16px; 
+}
+
+.footer__item3{
+   position: absolute;
+   left: 58%;
+   right: 38%;
+   top: 21%;
+   bottom: 73%;
+   width: 16px;
+}
