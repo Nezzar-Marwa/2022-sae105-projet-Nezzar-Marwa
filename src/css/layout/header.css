@@ -3,7 +3,6 @@
     left: 0;
     width: 100%;
     z-index: 2;
-    padding: var(--space2x) var(--space3x);
     display: flex;
     justify-content: space-between;
     transition: all .3s ease-in-out;
@@ -12,4 +11,18 @@
 .header__img{
     display: block;
     
+}
+
+.lang{
+    width: 80px;
+
+}
+
+.lang__logo{
+    margin-left: 50px;
+}
+
+.header__title{
+    margin: auto;
+    margin-top: 130px;
 }
