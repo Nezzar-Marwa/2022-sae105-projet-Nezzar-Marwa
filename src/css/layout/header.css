@@ -16,25 +16,18 @@
 }
 
 .header__title{
-    /* margin: auto;
-    margin-top: 130px;
-    font-family:var(--font-cinzel); */
     position: absolute;
-    width: 61px;
     height: 20px;
     left: 153px;
-    top: 143px;
-
+    top: 100px;
     font-family: 'Cinzel';
     font-style: normal;
-    font-weight: 700;
     font-size: 15px;
     line-height: 20px;
     text-align: center;
-
-    color: #000000;
+    color: var(--text);
 }
 
 .header__logo{
-
+   width: 100px;  
 }
