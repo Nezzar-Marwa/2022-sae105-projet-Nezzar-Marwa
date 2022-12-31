@@ -1,16 +1,8 @@
 .header{
-    top: 0;
-    left: 0;
-    width: 100%;
     z-index: 2;
     display: flex;
     justify-content: space-between;
     transition: all .3s ease-in-out;
-}
-
-.header__img{
-    display: block;
-    
 }
 
 .lang{
@@ -20,9 +12,29 @@
 
 .lang__logo{
     margin-left: 50px;
+    width: 40px;
 }
 
 .header__title{
-    margin: auto;
+    /* margin: auto;
     margin-top: 130px;
+    font-family:var(--font-cinzel); */
+    position: absolute;
+    width: 61px;
+    height: 20px;
+    left: 153px;
+    top: 143px;
+
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.header__logo{
+
 }
