@@ -20,6 +20,7 @@
    top: 21%;
    bottom: 73%;
    width: 16px;
+
 }
 
 .footer__item2{
@@ -29,11 +30,16 @@
    top: 19%;
    bottom: 73%;
    width: 16px; 
+
+   border-bottom: 1px solid var(--text);
+   position: absolute;
+   bottom: 72%;
+   width: 180px;
 }
 
 .footer__item3{
    position: absolute;
-   left: 58%;
+   left: 59%;
    right: 38%;
    top: 21%;
    bottom: 73%;
@@ -67,10 +73,7 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
-    /* identical to box height */
-    
-    text-align: center;
-    
+    text-align: center; 
     color: #373232;
 }
 
@@ -105,3 +108,4 @@
    text-align: center;
    color: #373232;
 }
+
