@@ -1,71 +1,51 @@
 <!DOCTYPE html>
-<html lang="en"x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen,}"></html>
+<html lang="en" x-data="{menuIsOpen: false}" : class="{noscroll:menuIsOpen,}">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kairos</title>
+    <link rel="stylesheet" href="/src/css/style.css">
     <script defer src="https://unpkg.com/alpinejs"></script>
     <style>
-      .menu{
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        height: 100vh;
-        background-color: #fff;
-        display: grid;
-        place-content: center;
-      }
-      .header__menuBtn{
-        position: relative;
-        z-index: 10;
-      }
-      .noscroll,
-      .noscroll body {
-        overflow: hidden;
-       }
     </style>
-    <!-- <link href="https://unpkg.com/cloudinary-video-player@1.9.4/dist/cld-video-player.min.css" 
-    rel="stylesheet">
-<script src="https://unpkg.com/cloudinary-video-player@1.9.4/dist/cld-video-player.min.js" 
-    type="text/javascript"></script> -->
 </head>
 
 <body>
 
- <header>
-  <a href="/">
-    <img src="/public/icon/kairos.webp" alt="logo kairos">
+ <header class="header">
+  <a class="header__img" href="/">
+    <img class="header__logo" src="/public/icon/kairos.webp" alt="logo kairos">
     </a>
-    <button>
-      <span></span>
-    </button>
-<h1>Kairos</h1>
-  <nav>
-    <ul>
-      <a href="/en/index.html"><img src="/public/icon/anglais.svg"></a>
+
+    <h1 class="header__title">Kairos</h1>
+ 
+<nav>
+    <ul class="lang">
+      <a class="lang__link" href="/en/index.html"><img class="lang__logo" src="/public/icon/anglais.svg"></a>
       <a href="/en/index.html"></a>
-  </ul>     
-    <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__menuBtn">
+  </ul></nav>
+  
+  <nav class="header__menu">  
+    <button class="header__menuBtn menu-btn" aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__menuBtn">
       <ul><a href="#"><img src="/public/icon/menu.svg" alt="menu"></ul></button> 
     <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms
     class="menu"
     >
-<h1>CONTENU</h1>
-  <ul>
-        <li><a href="k-12.html"><img src="/public/icon/film.svg" alt="film"><h1>K-12 un film à ne pas manquer</h1></a></li>
-        <li><a href="alice.html"><img src="/public/icon/livres.svg" alt="livre"><h1>Alice et le pays des merveilles</h1></a></li>
-        <li><a href="freak.html"><img src="/public/icon/musique.svg" alt="musique"><h1>Freak une musique surprenante</h1></a></li>
-        <li><a href="château.html"><img src="/public/icon/lieux.svg" alt="lieux"><h1>Le château de Craigdarroch</h1></a></li>
-        <li><a href="discrimination.html"><img src="/public/icon/regret.svg" alt="regret"><h1>la monté des discriminations</h1></a></li>
-        <li><a href="espoir.html"><img src="/public/icon/espoir.svg" alt="espoir"><h1>Une lueur d'espoir</h1></a></li>
+<h1 class="menu__title1">CONTENU</h1>
+  <ul class="menu__list">
+        <a class="menu__link" href="k-12.html"><img class="menu__icon" src="/public/icon/film.svg" alt="film"><h1 class="menu__item">K-12 un film à ne pas manquer</h1></a>
+        <a class="menu__link" href="alice.html"><img class="menu__icon" src="/public/icon/livres.svg" alt="livre"><h1 class="menu__item">Alice et le pays des merveilles</h1></a>
+        <a class="menu__link" href="freak.html"><img class="menu__icon" src="/public/icon/musique.svg" alt="musique"><h1 class="menu__item">Freak une musique surprenante</h1></a>
+        <a class="menu__link" href="château.html"><img class="menu__icon" src="/public/icon/lieux.svg" alt="lieux"><h1 class="menu__item">Le château de Craigdarroch</h1></a>
+        <a class="menu__link" href="discrimination.html"><img class="menu__icon" src="/public/icon/regret.svg" alt="regret"><h1 class="menu__item">la monté des discriminations</h1></a>
+        <a class="menu__link" href="espoir.html"><img class="menu__icon" src="/public/icon/espoir.svg" alt="espoir"><h1 class="menu__item">Une lueur d'espoir</h1></a>
     </ul>
   <ul>
-    <h1>EN SAVOIR PLUS</h1>
-        <li><a href="à propos.html">A PROPOS</a></li>
-        <li><a href="Contact.html">NOUS CONTACTER</a></li>
-        <li><a href="Autres projets.html">AUTRES PROJET</a></li>
+    <h1 class="menu__title2">EN SAVOIR PLUS</h1>
+        <a class="menu__link2" href="à propos.html">A PROPOS</a></li>
+        <a class="menu__link3" href="Contact.html">NOUS CONTACTER</a></li>
+        <a class="menu__link4" href="Autres projets.html">AUTRES PROJETS</a></li>
   </ul>
  </nav>
 </header>
