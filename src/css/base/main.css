@@ -58,4 +58,24 @@ body{
     color: #000000;
     margin-left: 10px;
     padding-top: 10px;
+    margin-bottom: 30px;
+}
+
+.glossaire__terme{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+    margin-left: 10px;
+}
+
+.glossaire__def{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    margin-left: 10px;
 }
