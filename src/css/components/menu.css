@@ -26,7 +26,7 @@
    }
 
    .menu__title1{
-    font-family: 'Cinzel';
+    font-family:var(--text);
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
@@ -87,7 +87,7 @@
    .menu__link2{
     position: absolute;
     width: 67px;
-    left: 25px;
+    left: 30px;
     top: 680px;
 
     font-family: 'Cinzel';
@@ -101,7 +101,7 @@
    .menu__link3{
     position: absolute;
     width: 83px;
-    left: 138px;
+    left: 145px;
     top: 680px;
 
     font-family: 'Cinzel';
@@ -115,7 +115,7 @@
    .menu__link4{
     position: absolute;
     width: 100px;
-    left: 249px;
+    left: 260px;
     top: 680px;
 
     font-family: 'Cinzel';
