@@ -63,7 +63,7 @@
     color: #373232;
     text-align: center;
 
-    padding-top: 10px;
+    padding-top: 0px;
     border-bottom: 5px solid var(--fond);
     width: 320px;
     padding-bottom: 5px;
@@ -73,7 +73,7 @@
    .menu__list{
     display: grid;
     font-size: 15px;
-    height: 350px;
+    height: 360px;
    }
    
    .menu__icon{
@@ -101,7 +101,7 @@
    .menu__link3{
     position: absolute;
     width: 83px;
-    left: 145px;
+    left: 138px;
     top: 680px;
 
     font-family: 'Cinzel';

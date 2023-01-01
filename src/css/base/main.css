@@ -4,10 +4,10 @@ body{
 
 .main__about{
     background-color: var(--article);
-    margin-top: 60px;
-    margin-left: 20px;
     width: 335px;
     height: 591px;
+    margin: auto;
+    margin-top: 60px;
 }
 
 .main__title{}
