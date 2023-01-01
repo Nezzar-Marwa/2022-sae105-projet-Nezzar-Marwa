@@ -84,4 +84,44 @@
     float: left;
    }
 
+   .menu__link2{
+    position: absolute;
+    width: 67px;
+    left: 25px;
+    top: 650px;
 
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #373232;
+    text-align: center;
+   }
+
+   .menu__link3{
+    position: absolute;
+    width: 83px;
+    left: 138px;
+    top: 650px;
+
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    color: #373232;
+   }
+
+   .menu__link4{
+    position: absolute;
+    width: 100px;
+    left: 249px;
+    top: 650px;
+
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    color: #373232;
+   }
