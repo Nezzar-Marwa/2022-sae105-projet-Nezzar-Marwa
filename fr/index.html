@@ -8,32 +8,6 @@
     <link rel="stylesheet" href="/src/css/style.css">
     <script defer src="https://unpkg.com/alpinejs"></script>
     <style>
-      .menu{
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        height: 100vh;
-        background-color: #A795D4;
-        display: grid;
-        place-content: center;
-      }
-      .header__menuBtn{
-        position: relative;
-        z-index: 10;
-        appearance: none;
-        border: none;
-        background: none;
-        padding: 0;
-        width: 80px;
-        cursor: pointer;
-        margin-right: 15px;
-        margin-top: 15px;
-      }
-      .noscroll,
-      .noscroll body {
-        overflow: hidden;
-       }
     </style>
 </head>
 
@@ -58,20 +32,20 @@
     <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms
     class="menu"
     >
-<h1>CONTENU</h1>
+<h1 class="menu__title1">CONTENU</h1>
   <ul class="menu__list">
-        <li class="menu__item"><a class="menu__link" href="k-12.html"><img src="/public/icon/film.svg" alt="film"><h1>K-12 un film à ne pas manquer</h1></a></li>
-        <li class="menu__item"><a class="menu__link" href="alice.html"><img src="/public/icon/livres.svg" alt="livre"><h1>Alice et le pays des merveilles</h1></a></li>
-        <li class="menu__item"><a class="menu__link" href="freak.html"><img src="/public/icon/musique.svg" alt="musique"><h1>Freak une musique surprenante</h1></a></li>
-        <li class="menu__item"><a class="menu__link" href="château.html"><img src="/public/icon/lieux.svg" alt="lieux"><h1>Le château de Craigdarroch</h1></a></li>
-        <li class="menu__item"><a class="menu__link" href="discrimination.html"><img src="/public/icon/regret.svg" alt="regret"><h1>la monté des discriminations</h1></a></li>
-        <li class="menu__item"><a class="menu__link" href="espoir.html"><img src="/public/icon/espoir.svg" alt="espoir"><h1>Une lueur d'espoir</h1></a></li>
+        <a class="menu__link" href="k-12.html"><img src="/public/icon/film.svg" alt="film"><h1>K-12 un film à ne pas manquer</h1></a>
+        <a class="menu__link" href="alice.html"><img src="/public/icon/livres.svg" alt="livre"><h1>Alice et le pays des merveilles</h1></a>
+        <a class="menu__link" href="freak.html"><img src="/public/icon/musique.svg" alt="musique"><h1>Freak une musique surprenante</h1></a>
+        <a class="menu__link" href="château.html"><img src="/public/icon/lieux.svg" alt="lieux"><h1>Le château de Craigdarroch</h1></a>
+        <a class="menu__link" href="discrimination.html"><img src="/public/icon/regret.svg" alt="regret"><h1>la monté des discriminations</h1></a>
+        <a class="menu__link" href="espoir.html"><img src="/public/icon/espoir.svg" alt="espoir"><h1>Une lueur d'espoir</h1></a>
     </ul>
   <ul>
-    <h1>EN SAVOIR PLUS</h1>
-        <li class="menu__item"><a class="menu__link" href="à propos.html">A PROPOS</a></li>
-        <li class="menu__item"><a class="menu__link" href="Contact.html">NOUS CONTACTER</a></li>
-        <li class="menu__item"><a class="menu__link" href="Autres projets.html">AUTRES PROJET</a></li>
+    <h1 class="menu__title2">EN SAVOIR PLUS</h1>
+        <a class="menu__link" href="à propos.html">A PROPOS</a></li>
+        <a class="menu__link" href="Contact.html">NOUS CONTACTER</a></li>
+        <a class="menu__link" href="Autres projets.html">AUTRES PROJET</a></li>
   </ul>
  </nav>
 </header>

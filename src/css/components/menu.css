@@ -1,0 +1,51 @@
+.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #A795D4;
+    display: grid;
+    place-content: center;
+  }
+  .header__menuBtn{
+    position: relative;
+    z-index: 10;
+    appearance: none;
+    border: none;
+    background: none;
+    padding: 0;
+    width: 80px;
+    cursor: pointer;
+    margin-right: 15px;
+    margin-top: 15px;
+  }
+  .noscroll,
+  .noscroll body {
+    overflow: hidden;
+   }
+
+   .menu__title1{
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    color: #373232;
+   }
+
+   .menu__link{
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    color: #373232;
+   }
+
+   .menu__title2{}
+
+   .menu__list{
+    display: grid;
+    font-size: 15px;
+   }
+
+
