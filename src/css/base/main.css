@@ -4,8 +4,8 @@ body{
 
 .main__about{
     background-color: var(--article);
-    width: 335px;
-    height: 591px;
+    width: 350px;
+    height: 570px;
     margin: auto;
     margin-top: 70px;
     border-radius: 5px;
@@ -42,8 +42,8 @@ body{
 
 .glossaire{
     background-color: var(--article);
-    width: 335px;
-    height: 591px;
+    width: 350px;
+    height: 570px;
     margin: auto;
     margin-top: 70px;
     border-radius: 5px;
