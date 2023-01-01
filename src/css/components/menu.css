@@ -33,6 +33,7 @@
     color: #373232;
     text-align: center;
     top: 195px;
+    /* height: 70px; */
    
     padding-top: 10px;
     margin: auto;
@@ -62,6 +63,7 @@
     font-size: 15px;
     color: #373232;
     text-align: center;
+    margin-top: 0;
 
     padding-top: 0px;
     border-bottom: 5px solid var(--fond);
@@ -73,7 +75,7 @@
    .menu__list{
     display: grid;
     font-size: 15px;
-    height: 360px;
+    height: 400px;
    }
    
    .menu__icon{
