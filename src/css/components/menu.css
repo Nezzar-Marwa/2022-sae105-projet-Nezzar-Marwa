@@ -19,11 +19,9 @@
     cursor: pointer;
     margin-right: 15px;
     margin-top: 15px;
-  }
-  .noscroll,
-  .noscroll body {
     overflow: hidden;
-   }
+  }
+
 
    .menu__title1{
     font-family:var(--text);
