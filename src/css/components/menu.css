@@ -31,6 +31,14 @@
     font-weight: 700;
     font-size: 15px;
     color: #373232;
+    text-align: center;
+    top: 195px;
+   
+    padding-top: 110px;
+    margin: auto;
+    border-bottom: 5px solid var(--fond);
+    width: 320px;
+    padding-bottom: 5px;
    }
 
    .menu__link{
@@ -41,11 +49,30 @@
     color: #373232;
    }
 
-   .menu__title2{}
+   .menu__title2{
+    font-family: 'Cinzel';
+    font-style:normal;
+    font-weight: 700;
+    font-size: 15px;
+    color: #373232;
+    text-align: center;
+
+    padding-top: 11px;
+    border-bottom: 5px solid var(--fond);
+    width: 320px;
+    padding-bottom: 5px;
+   }
 
    .menu__list{
     display: grid;
     font-size: 15px;
+   }
+   
+   .menu__icon{
+    width: 19px;
+    height: 20px;
+    left: 31px;
+    top: 248px;
    }
 
 
