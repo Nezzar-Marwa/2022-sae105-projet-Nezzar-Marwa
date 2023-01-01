@@ -85,3 +85,7 @@ body{
     width: 320px;
     padding-bottom: 5px;
 }
+
+.glossaire__link{
+    color: blueviolet;
+}
