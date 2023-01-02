@@ -1,7 +1,7 @@
 .footer{
     background-color:var(--menu);
     position: absolute;
-    height: 280px;
+    height: 290px;
 }
 
 .footer__categorie{
@@ -12,30 +12,44 @@
     font-weight: 400;
     padding-top: 15px;
     color: #373232; 
+    margin-top: 5px;
 }
 
 .footer__item{
-    width: 100px;
-    height: 100px;
-    margin-left: 27px;
+    position: absolute;
+    left: 36%;
+    right: 59.73%;
+    top: 50px;
+    bottom: 73.02%;
+    padding-bottom: 40px;
 }
 
-.footer__item2{}
+.footer__item2{
+    position: absolute;
+    left: 48.53%;
+    right: 48.8%;
+    top: 50px;
+    bottom: 73.02%;
+}
 
 .footer__item3{
+    position: absolute;
+    left: 58.4%;
+    right: 37.07%;
+    top: 51px;
+    bottom: 73.41%;
 }
 
 .footer__item4{
+    line-height: 70px;
     width: 67px;
     padding-left: 15px;
-    margin-left: 15px;
 
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
     color: #373232;
-    text-align: center;
 }
 
 .footer__item5{
@@ -47,7 +61,6 @@
     font-weight: 400;
     font-size: 13px;
     color: #373232;
-    text-align: center;
 }
 
 .footer__item6{
@@ -59,7 +72,6 @@
     font-weight: 400;
     font-size: 13px;
     color: #373232;
-    text-align: center;
 }
 
 .footer__item7{
@@ -71,8 +83,15 @@
     font-weight: 400;
     font-size: 13px;
     color: #373232;
-    text-align: center;
 }
+
+.footer__border{
+    border-bottom: 2px solid #373232;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-bottom: 30px;
+}
+
 
 .footer__exercice{
    font-family: 'Inter';
