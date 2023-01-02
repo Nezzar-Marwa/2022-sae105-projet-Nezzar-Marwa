@@ -2,3 +2,9 @@ img {
     max-width: 100%;
     height: auto;
   }
+
+  .film__galerie{
+    width: 200px;
+    padding: 2px;  /* No margin */
+    border: 10px solid black;
+  }
