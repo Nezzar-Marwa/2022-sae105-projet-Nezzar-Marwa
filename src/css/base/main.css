@@ -90,7 +90,14 @@ body{
     color: blueviolet;
 }
 
-.projets{}
+.projets{
+    background-color: var(--article);
+    width: 350px;
+    height: 950px;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 5px;
+}
 
 .projets__personne{}
 
