@@ -13,7 +13,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 18px;
+    line-height: 3px;
     margin-left: 8px;
     color: #000000;
 }
@@ -23,10 +23,16 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 17px;
+    line-height: 18px;
     color: #000000;
     margin-left: 8px;
     padding-right: 50px;
+
+    margin: auto;
+    margin-bottom: 45px;
+    border-bottom: 3px solid var(--menu);
+    width: 280px;
+    padding-bottom: 7px
 }
 
 .formulaire__type{
