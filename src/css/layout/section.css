@@ -35,6 +35,16 @@
     padding-bottom: 7px
 }
 
+.formulaire__info{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1px; 
+    color: #000000;
+    margin-left: 8px;
+}
+
 .formulaire__type{
     font-family: 'Inter';
     font-style: normal;
@@ -67,4 +77,8 @@
     border-left: #644E4E;
     padding: 8px;
     border-radius: 5px;
+}
+
+.obligatoire{color:
+    red;
 }

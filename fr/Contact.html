@@ -54,26 +54,27 @@
     <header>
       <h2 class="section__formulaire">Formulaire de contact:</h2>
       <p class="formulaire__intro">Une remarque ? une suggestion ? un commentaire ? N’hésitez pas à me la poser.</p>
+      <p class="formulaire__info">Les champs contenant une "<span class="obligatoire">*</span>" sont obligatoires.</p>
     </header>
     <form action="#">
       <div>
-        <label class="formulaire__type" for="Prénom*">Prénom*</label>
+        <label class="formulaire__type" for="Prénom*">Prénom<span class="obligatoire">*</span> </label>
         <input class="formulaire__case" type="text" name="Prénom" id="Prénom">
       </div>
       <div>
-        <label class="formulaire__type" for="Nom*">Nom*</label>
+        <label class="formulaire__type" for="Nom*">Nom<span class="obligatoire">*</span></label>
         <input class="formulaire__case" type="text" name="Nom" id="Nom">
       </div>
       <div>
-        <label class="formulaire__type" for="Mail*">Mail*</label>
+        <label class="formulaire__type" for="Mail*">Mail<span class="obligatoire">*</span></label>
         <input class="formulaire__case" type="email" name="Mail">
       </div>
       <div>
-        <label class="formulaire__type" for="Téléphone*">Téléphone*</label>
+        <label class="formulaire__type" for="Téléphone*">Téléphone<span class="obligatoire">*</span></label>
         <input class="formulaire__case" type="text" name="Téléphone">
       </div>
       <div>
-        <label class="formulaire__type" for="message*">Message*</label>
+        <label class="formulaire__type" for="message*">Message<span class="obligatoire">*</span></label>
         <textarea class="formulaire__case" id="msg" name="message" rows="5"></textarea>
       </div>
       <button class="formulaire__send" type="submit">Send</button>
