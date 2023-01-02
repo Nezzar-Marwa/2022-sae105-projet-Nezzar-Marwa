@@ -130,7 +130,7 @@ body{
     position: absolute;
     border-bottom: 3px solid var(--menu);
     width: 320px;
-    padding-bottom: 7px
+    padding-bottom: 7px;
 }
 
 .autres{
