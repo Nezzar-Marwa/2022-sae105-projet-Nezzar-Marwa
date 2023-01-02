@@ -4,7 +4,7 @@
     height: 591px;
     margin: auto;
     margin-top: 70px;
-    padding-top: 20px;
+    padding-top: 15px;
     border-radius: 5px;
 }
 
@@ -40,7 +40,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 40px;
+    line-height: 30px;
     color: #000000;
     margin-left: 50px;
 }
@@ -49,6 +49,22 @@
     display: flex;
     margin: auto;
     border: 1px solid #644E4E;
+    padding-top: 10px;
     border-radius: 3px;
     width: 250px;
+}
+
+.formulaire__send{
+    font-family: 'Inter';
+    font-size: 14px;
+    display: flex;
+    margin: auto;
+    margin-top: 25px;
+    background-color: var(--menu);
+    border-bottom: #644E4E;
+    border-right: #644E4E;
+    border-top: #644E4E;
+    border-left: #644E4E;
+    padding: 8px;
+    border-radius: 5px;
 }
