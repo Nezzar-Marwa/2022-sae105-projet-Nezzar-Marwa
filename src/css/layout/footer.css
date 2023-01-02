@@ -1,7 +1,7 @@
 .footer{
     background-color:var(--menu);
     position: absolute;
-    height: 300px;
+    height: 280px;
 }
 
 .footer__categorie{
@@ -11,128 +11,76 @@
     font-style: normal;
     font-weight: 400;
     padding-top: 15px;
-    height: 100px;
     color: #373232; 
 }
 
-.footer__item1{
-   position: absolute; 
-   left: 36%;
-   right: 60%;
-   top: 21%;
-   bottom: 73%;
-   width: 16px;
-
+.footer__item{
+    width: 100px;
+    height: 100px;
+    margin-left: 27px;
 }
 
-.footer__item2{
-   position: absolute;
-   left: 49%;
-   right: 49%;
-   top: 19%;
-   bottom: 73%;
-   width: 16px; 
-
-   border-bottom: 1px solid var(--text);
-   position: absolute;
-   bottom: 72%;
-   width: 180px;
-}
+.footer__item2{}
 
 .footer__item3{
-   position: absolute;
-   left: 59%;
-   right: 38%;
-   top: 21%;
-   bottom: 73%;
-   width: 16px;
 }
 
 .footer__item4{
-    position: absolute;
-    left: 8%;
-    right: 78.4%;
-    top: 30%;
-    bottom: 50%;
+    width: 67px;
+    padding-left: 15px;
+    margin-left: 15px;
 
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 15px;
+    font-size: 13px;
     color: #373232;
+    text-align: center;
 }
 
 .footer__item5{
-    position: absolute;
-    left: 29.07%;
-    right: 58.67%;
-    top: 30%;
-    bottom: 50%;
-    
+    width: 67px;
+    padding-left: 20px;
+
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 15px;
-    text-align: center; 
+    font-size: 13px;
     color: #373232;
+    text-align: center;
 }
 
 .footer__item6{
-    position: absolute;
-    left: 48.8%;
-    right: 37.07%;
-    top: 30%;
-    bottom: 50%;
+    width: 67px;
+    padding-left: 20px;
 
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 15px;
-    text-align: center;
+    font-size: 13px;
     color: #373232;
+    text-align: center;
 }
 
 .footer__item7{
-    position: absolute;
-   left: 70.4%;
-   right: 8.27%;
-   top: 30%;
-   bottom: 50%;
+    width: 67px;
+    padding-left: 20px;
 
-   font-family: 'Inter';
-   font-style: normal;
-   font-weight: 400;
-   font-size: 12px;
-   line-height: 15px;
-   text-align: center;
-   color: #373232;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: #373232;
+    text-align: center;
 }
-
 
 .footer__exercice{
    font-family: 'Inter';
    font-style: normal;
    font-weight: 400;
-   font-size: 12px;
+   font-size: 13px;
    color: #373232;
 }
 
-.footer__identite{
-    position: absolute;
-   left: 5.07%;
-   right: 34.13%;
-   top: 85.49%;
-   bottom: 5.56%;
 
-   font-family: 'Inter';
-   font-style: normal;
-   font-weight: 400;
-   font-size: 12px;
-   line-height: 15px;
-   text-align: center;
-   color: #373232;
-}
 
