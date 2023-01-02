@@ -1,0 +1,9 @@
+.formulaire{
+    background-color: var(--article);
+    width: 350px;
+    height: 825px;
+    margin: auto;
+    margin-top: 70px;
+    padding-top: 20px;
+    border-radius: 5px;
+}
