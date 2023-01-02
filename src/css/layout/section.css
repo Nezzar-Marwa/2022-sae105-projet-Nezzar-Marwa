@@ -1,7 +1,7 @@
 .formulaire{
     background-color: var(--article);
     width: 350px;
-    height: 825px;
+    height: 591px;
     margin: auto;
     margin-top: 70px;
     padding-top: 20px;
@@ -12,8 +12,19 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 18px;
-    text-align: center;
+    margin-left: 5px;
     color: #000000;
+}
+
+.formulaire__intro{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-left: 8px;
+    padding-right: 50px;
 }
