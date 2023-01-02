@@ -7,3 +7,13 @@
     padding-top: 20px;
     border-radius: 5px;
 }
+
+.section__formulaire{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #000000;
+}
