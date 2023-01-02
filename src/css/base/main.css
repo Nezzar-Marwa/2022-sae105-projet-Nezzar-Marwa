@@ -93,12 +93,20 @@ body{
 .projets{
     background-color: var(--article);
     width: 350px;
-    height: 950px;
+    height: 1150px;
     margin: auto;
     margin-top: 70px;
+    padding-top: 40px;
     border-radius: 5px;
 }
 
-.projets__personne{}
+.projets__personne{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 40px;
+    color: #000000;
+}
 
 .projets__sites{}
