@@ -6,3 +6,12 @@
     border-radius: 5px;
     margin-bottom: 20px;
 }
+
+.freak__titles{
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+}
