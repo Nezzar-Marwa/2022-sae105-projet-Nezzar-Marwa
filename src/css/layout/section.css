@@ -6,6 +6,7 @@
     margin-top: 70px;
     padding-top: 15px;
     border-radius: 5px;
+    margin-bottom: 20px;
 }
 
 .section__formulaire{
@@ -66,6 +67,7 @@
 
 .formulaire__send{
     font-family: 'Inter';
+    color: #000000;
     font-size: 14px;
     display: flex;
     margin: auto;
