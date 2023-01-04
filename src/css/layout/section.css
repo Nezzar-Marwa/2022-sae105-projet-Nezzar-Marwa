@@ -14,8 +14,26 @@
     font-size: 15px;
     line-height: 20px;
     color: #000000;
+
+    margin-left: 10px;
+    padding-top: 10px;
+    margin-bottom: 3px;
 }
 
 .freak__img{
+
+}
+
+.freak__content{
+    font-family: Serif Gujarati;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0;
     
 }
