@@ -16,5 +16,7 @@
 
 @import "layout/section.css";
 
-@import "layout/section-presentation.css"
+@import "layout/section-presentation.css";
+
+@import "components/contactform.css";
 

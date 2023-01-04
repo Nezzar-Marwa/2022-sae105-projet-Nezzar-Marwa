@@ -1,86 +1,8 @@
-.formulaire{
+.freak{
     background-color: var(--article);
     width: 350px;
-    height: 585px;
     margin: auto;
     margin-top: 70px;
-    padding-top: 15px;
     border-radius: 5px;
     margin-bottom: 20px;
-}
-
-.section__formulaire{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 3px;
-    margin-left: 8px;
-    color: #000000;
-}
-
-.formulaire__intro{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
-    color: #000000;
-    margin-left: 8px;
-    padding-right: 50px;
-
-    margin: auto;
-    margin-bottom: 10px;
-    border-bottom: 3px solid var(--menu);
-    width: 280px;
-    padding-bottom: 7px
-}
-
-.formulaire__info{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 10px; 
-    color: #000000;
-    margin-left: 8px;
-}
-
-.formulaire__type{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 30px;
-    color: #000000;
-    margin-left: 50px;
-}
-
-.formulaire__case{
-    display: flex;
-    margin: auto;
-    border: 1px solid #644E4E;
-    padding-top: 10px;
-    border-radius: 3px;
-    width: 250px;
-}
-
-.formulaire__send{
-    font-family: 'Inter';
-    color: #000000;
-    font-size: 14px;
-    display: flex;
-    margin: auto;
-    margin-top: 25px;
-    background-color: var(--menu);
-    border-bottom: #644E4E;
-    border-right: #644E4E;
-    border-top: #644E4E;
-    border-left: #644E4E;
-    padding: 8px;
-    border-radius: 5px;
-}
-
-.obligatoire{color:
-    red;
 }
