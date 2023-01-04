@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" x-data="{menuIsOpen: false}" : class="{noscroll:menuIsOpen,}">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kairos</title>
+    <link rel="stylesheet" href="/src/css/style.css">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <style>
+    </style>
+</head>
+
+<body>
+
+ <header class="header">
+  <a class="header__img" href="/">
+    <img class="header__logo" src="/public/icon/kairos.webp" alt="logo kairos">
+    </a>
+
+    <h1 class="header__title">Kairos</h1>
+ 
+<nav>
+    <ul>
+      <a class="lang__link" href="/en/index.html"><img class="lang__logo" src="/public/icon/anglais.svg"></a>
+      <a href="/en/index.html"></a>
+  </ul></nav>
+  
+  <nav class="header__menu">  
+    <button class="header__menuBtn menu-btn" aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__menuBtn">
+      <ul><a href="#"><img src="/public/icon/menu.svg" alt="menu"></ul></button> 
+    <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms
+    class="menu"
+    >
+<h1 class="menu__title1">CONTENU</h1>
+  <ul class="menu__list">
+        <a class="menu__link" href="k-12.html"><img class="menu__icon" src="/public/icon/film.svg" alt="film"><h1 class="menu__item">K-12 un film à ne pas manquer</h1></a>
+        <a class="menu__link" href="alice.html"><img class="menu__icon" src="/public/icon/livres.svg" alt="livre"><h1 class="menu__item">Alice et le pays des merveilles</h1></a>
+        <a class="menu__link" href="freak.html"><img class="menu__icon" src="/public/icon/musique.svg" alt="musique"><h1 class="menu__item">Freak une musique surprenante</h1></a>
+        <a class="menu__link" href="château.html"><img class="menu__icon" src="/public/icon/lieux.svg" alt="lieux"><h1 class="menu__item">Le château de Craigdarroch</h1></a>
+        <a class="menu__link" href="discrimination.html"><img class="menu__icon" src="/public/icon/regret.svg" alt="regret"><h1 class="menu__item">la monté des discriminations</h1></a>
+        <a class="menu__link" href="espoir.html"><img class="menu__icon" src="/public/icon/espoir.svg" alt="espoir"><h1 class="menu__item">Une lueur d'espoir</h1></a>
+    </ul>
+  <ul>
+    <h1 class="menu__title2">EN SAVOIR PLUS</h1>
+        <a class="menu__link2" href="a-propos.html">A PROPOS</a></li>
+        <a class="menu__link3" href="Contact.html">NOUS CONTACTER</a></li>
+        <a class="menu__link4" href="Autres projets.html">AUTRES PROJETS</a></li>
+  </ul>
+ </nav>
+</header>
+
+<main class="main__about">
+ <h2 class="main__title">à propos:</h2>
+ <p class="main__text">Je suis Marwa Nezzar étudiante en première année de mmi j’ai fais mon site sur le thème de la différence et de l’acceptation de soi.</p>
+ <p class="main__text">J’ai été inspiré par le type de film que je regarde ainsi que par les livres ou les musique que je lis et écoute, dans chacun de ces films 
+ il ya tout type de personnes qui peuvent à première vu être considérés comme fou ou étrange voir même rejetés mais ils arrivent toujours à finir par être fier de qui ils sont sans se soucier de l’avis des autres.</p>
+ <p class="main__text">J’ai aussi été inspiré car je sais que beaucoup de personnes ont dejà été victime du rejet lié à leur différences je voulais faire un site pour ces personnes là pour montrer que l’expérience peut être commune et qu’ils ne sont pas seuls ou juste pour leur donner des héros ou personnages qui revendiquent leur différences fièrement.</p>
+ <p class="main__text">J’ai aussi fait ce site pour faire le point sur la situation actuelle pour que le moi du futur puisse comparer son époque à la mienne et ainsi découvrir ou redécouvrir des oeuvres cultes.</p>
+</main>
+
+<footer class="footer">
+  <h3 class="footer__categorie">Nous suivre</h3>
+  <ul class="footer__icon">
+    <a class="footer__item" href="https://www.instagram.com/mmi_montbeliard/">
+      <img src="/public/icon/instagram.svg" alt="Page instagram">
+    </a>
+    <a class="footer__item2" href="https://t.co/dzVvmIOrfw">
+      <img src="/public/icon/facebook.svg" alt="Page facebook">
+    </a>
+    <a class="footer__item3" href="https://twitter.com/mmimontbeliard">
+      <img src="/public/icon/twitter.svg" alt="Page twitter">
+    </a>
+  </ul>
+  <nav class="footer__border">
+    <a class="footer__item4" href="a-propos.html">à propos
+    </a>
+    <a class="footer__item5" href="Contact.html">Contact
+    </a>
+    <a class="footer__item6" href="Glossaire.html">Glossaire
+    </a>
+    <a class="footer__item7" href="Autres projets.html">Autres projets
+    </a>
+  </nav>
+  <div>
+    <h3 class="footer__categorie">Mentions légales</h3>
+    <p class="footer__exercice">Projet réalisé dans le cadre d’un exercice 
+      pédagogique au département <a href="https://mmi-montbeliard.nathanvanbignootvincler.fr/"> MMi de Montbéliard.</a></p>
+    <p class="footer__exercice">Fait par Marwa Nezzar MMI 1 groupe B2</p>
+  </div>
+  </footer>
