@@ -38,6 +38,14 @@
     margin-top: 0;
 }
 
+.freak__exergue{
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px; 
+    text-align: center;
+}
+
 .freak__link{
     margin-left: 65px;
 }
