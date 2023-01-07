@@ -346,3 +346,16 @@
     margin-left: 10px;
     margin-bottom: 20px;
 }
+
+.alice__exergue{
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px; 
+    color: #000000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 80%;
+    text-align: center;
+    margin-left: 35px;
+}
