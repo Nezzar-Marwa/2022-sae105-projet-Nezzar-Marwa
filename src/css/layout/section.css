@@ -196,3 +196,15 @@
 .k12__link{
     margin-left: 65px;
 }
+
+/* article sur le lieux */
+
+.castle{
+    background-color: var(--article);
+    width: 350px;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
