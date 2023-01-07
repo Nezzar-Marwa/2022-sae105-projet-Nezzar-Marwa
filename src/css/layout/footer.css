@@ -7,7 +7,7 @@
 .footer__categorie{
     font-family: 'inter';
     text-align: center;
-    font-size: 14px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 400;
     padding-top: 15px;
@@ -43,12 +43,12 @@
 .footer__item4{
     line-height: 40px;
     width: 67px;
-    padding-left: 15px;
+    padding-left: 10px;
 
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 14px;
     color: #373232;
 }
 
@@ -59,7 +59,7 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 14px;
     color: #373232;
 }
 
@@ -70,18 +70,18 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 14px;
     color: #373232;
 }
 
 .footer__item7{
     width: 67px;
-    padding-left: 20px;
+    padding-left: 14px;
 
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 14px;
     color: #373232;
 }
 
@@ -98,7 +98,7 @@
    font-family: 'Inter';
    font-style: normal;
    font-weight: 400;
-   font-size: 13px;
+   font-size: 14px;
    color: #373232;
    margin-left: 5px;
    text-align: center;
