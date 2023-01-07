@@ -335,6 +335,17 @@
     margin-left: 10px;
 }
 
+.alice__content3{
+    font-family:'Franklin Gothic light', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #000000;
+
+    margin-left: 10px; 
+}
+
 .alice__video{
     font-family:'Franklin Gothic light', 'Arial Narrow', Arial, sans-serif;
     font-style: normal;
