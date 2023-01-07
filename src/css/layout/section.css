@@ -1,6 +1,6 @@
 .freak{
     background-color: var(--article);
-    width: 350px;
+    width: 360px;
     margin: auto;
     margin-top: 70px;
     border-radius: 5px;
@@ -86,7 +86,7 @@
 /* article film k-12 */
 .k12{
     background-color: var(--article);
-    width: 350px;
+    width: 360px;
     margin: auto;
     margin-top: 70px;
     border-radius: 5px;

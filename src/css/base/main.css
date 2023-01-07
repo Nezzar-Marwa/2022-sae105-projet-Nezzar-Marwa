@@ -4,7 +4,7 @@ body{
 
 .main__about{
     background-color: var(--article);
-    width: 350px;
+    width: 360px;
     height: 570px;
     margin: auto;
     margin-top: 70px;
@@ -43,7 +43,7 @@ body{
 
 .glossaire{
     background-color: var(--article);
-    width: 350px;
+    width: 360px;
     height: 580px;
     margin: auto;
     margin-top: 70px;
@@ -92,9 +92,11 @@ body{
     color: blueviolet;
 }
 
+
+/* section autres projets */
 .projets{
     background-color: var(--article);
-    width: 350px;
+    width: 360px;
     height: 825px;
     margin: auto;
     margin-top: 70px;
