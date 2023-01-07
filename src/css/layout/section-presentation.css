@@ -1,4 +1,12 @@
 /* homepage */
 .intro{
+    font-family:'Franklin Gothic light', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
     margin-top: 70px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
