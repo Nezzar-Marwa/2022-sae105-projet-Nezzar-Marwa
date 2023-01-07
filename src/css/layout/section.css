@@ -406,7 +406,7 @@
 .regret__img{
     width: 95%;
     padding-left: 9px;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
 }
 
 .regret__content{
@@ -423,4 +423,8 @@
     margin-bottom: 5px;
     width: 95%;
     padding-top: 0;
+}
+
+.regret__link{
+    margin-left: 65px;
 }
