@@ -283,7 +283,7 @@
     color: #000000;
 
     margin-left: 10px;
-    padding-top: 15px;
+    padding-top: 20px;
     margin-bottom: 3px;
     padding-bottom: 10px;
 }
@@ -322,6 +322,17 @@
     margin-bottom: 5px;
     width: 95%;
     padding-top: 0;
+}
+
+.alice__content2{
+    font-family:'Franklin Gothic light', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+
+    margin-left: 10px;
 }
 
 .alice__video{
