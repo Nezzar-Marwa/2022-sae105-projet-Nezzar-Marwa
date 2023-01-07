@@ -32,4 +32,13 @@
     margin: auto;
 }
 
-.homepage__title{}
+.homepage__title{
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    text-align: center;
+    padding-top: 20px;
+}
