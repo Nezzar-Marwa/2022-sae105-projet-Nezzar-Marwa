@@ -150,7 +150,25 @@
     font-weight: 600;
     font-size: 17px; 
     color: #000000;
-    text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    width: 80%;
+    text-align: center;
+    margin-left: 35px;
+}
+
+.k12__content2{
+    font-family:'Franklin Gothic light', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    width: 95%;
+    padding-top: 0;
 }

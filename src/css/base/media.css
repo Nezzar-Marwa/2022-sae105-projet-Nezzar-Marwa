@@ -5,6 +5,7 @@ img {
 
   .film__galerie{
     width: 200px;
-    padding: 2px;  /* No margin */
-    border: 10px solid black;
+    padding: 2px;  
+    border: 10px solid #000;
+    margin-left: 63px;
   }
