@@ -374,3 +374,17 @@
     margin-bottom: 20px;
     padding-bottom: 10px;
 }
+
+.regret__title{
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+
+    margin-left: 10px;
+    padding-top: 20px;
+    margin-bottom: 3px;
+    padding-bottom: 10px;
+}
