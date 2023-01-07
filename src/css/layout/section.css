@@ -164,15 +164,14 @@
     font-size: 14px;
     line-height: 20px;
     color: #000000;
+    text-align: center;
 
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: auto;
     margin-top: 30px;
     margin-bottom: 40px;
     width: 95%;
     padding-top: 0;
-
-
+    
 }
 
 .k12__caption{
@@ -184,7 +183,7 @@
     color: #000000;
     text-align: center;
 
-    margin-left: 80px;
+    margin-left: 88px;
     margin-top: 0;
     margin-bottom: 30px;
 

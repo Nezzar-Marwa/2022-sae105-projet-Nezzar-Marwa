@@ -6,6 +6,6 @@ img {
   .film__galerie{
     width: 200px;
     padding: 2px;  
-    border: 10px solid #000;
-    margin-left: 63px;
+    border: 10px solid #fff;
+    margin-left: 75px;
   }
