@@ -43,4 +43,13 @@
     padding-top: 30px;
 }
 
-.homepage__article{}
+.homepage__article{
+    background-color: var(--article);
+    width: 350px;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
