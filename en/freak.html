@@ -1,93 +1,121 @@
 <!DOCTYPE html>
-<html lang="en"x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen,}"></html>
+<html lang="en" x-data="{menuIsOpen: false}" : class="{noscroll:menuIsOpen,}">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kairos</title>
+    <link rel="stylesheet" href="/src/css/style.css">
     <script defer src="https://unpkg.com/alpinejs"></script>
     <style>
-      .menu{
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        height: 100vh;
-        background-color: #fff;
-        display: grid;
-        place-content: center;
-      }
-      .header__menuBtn{
-        position: relative;
-        z-index: 10;
-      }
-      .noscroll,
-      .noscroll body {
-        overflow: hidden;
-       }
     </style>
 </head>
 
 <body>
- <header>
-  <a href="/">
-    <img src="/public/icon/kairos.webp" alt="logo kairos">
+
+ <header class="header">
+  <a class="header__img" href="/">
+    <img class="header__logo" src="/public/icon/kairos.webp" alt="logo kairos">
     </a>
-<button>
-  <span></span>
-</button>
-<h1>Kairos</h1>
-  <nav>
-    <a href="#"><img src="/public/icon/anglais.webp"></a>
-    <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__menuBtn">
-      <ul><li><a href="#"><img src="/public/icon/menu.webp" alt="menu"></ul></button> 
+
+    <h1 class="header__title">Kairos</h1>
+ 
+<nav>
+    <ul>
+      <a class="lang__link" href="/en/index.html"><img class="lang__logo" src="/public/icon/anglais.svg"></a>
+      <a href="/en/index.html"></a>
+  </ul></nav>
+  
+  <nav class="header__menu">  
+    <button class="header__menuBtn menu-btn" aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__menuBtn">
+      <ul><a href="#"><img src="/public/icon/menu.svg" alt="menu"></ul></button> 
     <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms
     class="menu"
     >
-    <h1>CONTENU</h1>
-    <ul>
-        <li><a href="#"><img src="/public/icon/film.webp" alt="film"><h1>K-12 un film à ne pas manquer</h1>
-        <li><a href="#"><img src="/public/icon/livre.webp" alt="livre"><h1>Alice et le pays des merveilles</h1>
-        <li><a href="#"><img src="/public/icon/musique.webp" alt="musique"><h1>Freak une musique surprenante</h1>
-        <li><a href="#"><img src="/public/icon/lieux.webp" alt="musique"><h1>Le château de Craigdarroch</h1>
-        <li><a href="#"><img src="/public/icon/regret.webp" alt="regret"><h1>la monté des discriminations</h1>
-        <li><a href="#"><img src="/public/icon/espoir.webp" alt="espoir"><h1>Une lueur d'espoir</h1>  
+<h1 class="menu__title1">CONTENU</h1>
+  <ul class="menu__list">
+        <a class="menu__link" href="k-12.html"><img class="menu__icon" src="/public/icon/film.svg" alt="film"><h1 class="menu__item">K-12 un film à ne pas manquer</h1></a>
+        <a class="menu__link" href="alice.html"><img class="menu__icon" src="/public/icon/livres.svg" alt="livre"><h1 class="menu__item">Alice et le pays des merveilles</h1></a>
+        <a class="menu__link" href="freak.html"><img class="menu__icon" src="/public/icon/musique.svg" alt="musique"><h1 class="menu__item">Freak une musique surprenante</h1></a>
+        <a class="menu__link" href="château.html"><img class="menu__icon" src="/public/icon/lieux.svg" alt="lieux"><h1 class="menu__item">Le château de Craigdarroch</h1></a>
+        <a class="menu__link" href="discrimination.html"><img class="menu__icon" src="/public/icon/regret.svg" alt="regret"><h1 class="menu__item">la monté des discriminations</h1></a>
+        <a class="menu__link" href="espoir.html"><img class="menu__icon" src="/public/icon/espoir.svg" alt="espoir"><h1 class="menu__item">Une lueur d'espoir</h1></a>
     </ul>
   <ul>
-    <h1>EN SAVOIR PLUS</h1>
-        <li><a href="A PROPOS.html">A PROPOS</a></li>
-        <li><a href="NOUS CONTACTER.html">NOUS CONTACTER</a></li>
-        <li><a href="AUTRES PROJETS">AUTRES PROJET</a></li>
+    <h1 class="menu__title2">EN SAVOIR PLUS</h1>
+        <a class="menu__link2" href="a-propos.html">A PROPOS</a></li>
+        <a class="menu__link3" href="Contact.html">NOUS CONTACTER</a></li>
+        <a class="menu__link4" href="Autres projets.html">AUTRES PROJETS</a></li>
   </ul>
  </nav>
 </header>
 
 <main>
-  <section>
+  <section class="freak">
   <article>
-    <h1>Une musique à absoluement écouter</h1>
-    <img src="#" alt="image de l'album thrill seeker">
-    <h1>Freak:une histoire circassienne</h1>
-     <p>“Bienvenue dans notre spectacle de monstres”
+    <h1 class="freak__titles">Une musique à absoluement écouter</h1>
+    <img class="freak__img" src="/public/img/image_album_freak.webp" alt="image de l'album thrill seeker">
+    <h1 class="freak__titles2">Freak:une histoire circassienne</h1>
+     <p class="freak__quote">“Bienvenue dans notre spectacle de monstres”
 
-      La musique nous parle d’un spectacle de cirque dans des gens jugés comme étrange sont réuni et sont rejeté par les autres voir même moqué pour leur différences et pour qui ils sont.
-      Le chanteur faisant lui aussi parti de ces “monstres” se montre très empathique et nous décrit ce que l’opinion commune pense et veut faire de ces êtres différents il va alors nous dire que ceux qui sont rejetés par les autres sont ceux qui ne se conforment pas aux normes ou qui n’ont pas les mêmes opinions, ceux qui vivent selon leur désirs et instincts.
+      <p class="freak__content">La musique nous parle d’un spectacle de cirque dans des gens jugés comme étrange sont réuni et sont rejeté par les autres voir même moqué pour leur différences et pour qui ils sont.</p>
+      <p class="freak__content">Le chanteur faisant lui aussi parti de ces “monstres” se montre très empathique et nous décrit ce que l’opinion commune pense et veut faire de ces êtres différents il va alors nous dire que ceux qui sont rejetés par les autres sont ceux qui ne se conforment pas aux normes ou qui n’ont pas les mêmes opinions, ceux qui vivent selon leur désirs et instincts.</p>
       
-      “S'il vous plaît ne cachez pas, leur nature imparfaite”
+      <p class="freak__quote">“S'il vous plaît ne cachez pas, leur nature imparfaite”</p>
       
-      Cette citation est une demande directe du chanteur qui aimerait que toute personne jugé différente soit traité convenablement et qu’elle puisse vivre sans avoir besoin de se cacher, de se conformer ou de vivre dans la honte, il dit cela car ces imperfections sont naturelles elles ne dépendent pas de nous, comme nous avons aucun control sur ce qui nous rend différent rejeter les “monstres” n’à pas de sens et est injuste.
-      “C'est dur de trouver le remède quand y'a pas de maladie”
-      Cette autre citation nous confirme que pour le chanteur la différence n’est en rien une maladie ou une faiblesse et que personne ne devrait avoir à se soumettre à des normes absurdes.
+      <p class="freak__content">Cette citation est une demande directe du chanteur qui aimerait que toute personne jugé différente soit traité convenablement et qu’elle puisse vivre sans avoir besoin de se cacher, de se conformer ou de vivre dans la honte, il dit cela car ces imperfections sont naturelles elles ne dépendent pas de nous, comme nous avons aucun control sur ce qui nous rend différent rejeter les “monstres” n’à pas de sens et est injuste.</p>
+      <p class="freak__quote">“C'est dur de trouver le remède quand y'a pas de maladie”</p>
+      <p class="freak__content">Cette autre citation nous confirme que pour le chanteur la différence n’est en rien une maladie ou une faiblesse et que personne ne devrait avoir à se soumettre à des normes absurdes.</p>
      </p>
-    <h1>Thématique de cette musique</h1>
-    <p>Le thème principal est une fois encore la différence et le fait de s’accepter et d’être fier de son identité et ce qui fait de nous un être unique malgré le sens commun qui n’est pas de cet avis.  Ces paroles sont accompagnées par un clip de musique sur Youtube. Le chanteur dénonce aussi le fait que certains vont utiliser ces personnes pour s’enrichir ou profiter d’eux
+    <h1 class="freak__titles2">Thématique de cette musique</h1>
+    <p class="freak__content">Le thème principal est une fois encore la différence et le fait de s’accepter et d’être fier de son identité et ce qui fait de nous un être unique malgré le sens commun qui n’est pas de cet avis.  Ces paroles sont accompagnées par un clip de musique sur Youtube. Le chanteur dénonce aussi le fait que certains vont utiliser ces personnes pour s’enrichir ou profiter d’eux
       </p>
-      <div><p>“oh une si belle collection d’étrangetés”</p></div>
-    <h1>Plongez au coeur du spectacle</h1>
-    <p>Ce clip met en scène une troupe de cirque remplie de personnes diversifiés ayant des particularités physiques spéciales: nous avons une femme serpent, une contorsionniste, un homme à la force surhumaine, ces personnage semblent tous s’amuser sans être gênés par leur apparences particulières ils profitent de ces particularités pour faire vivre le cirque et parce qu’ils sont entourés de personnes comme eux devant qui ils n’auront pas à paraitre “parfait” et avec qui ils sont à l’aise cependant la fin du clip nous montre aussi le côté sombre du cirque avec des personnages qui sont utilisés et mis dans des situation dangereuses juste pour divertir, c’est un parallèle à la vrai vie où ce genre de cirque à dejà existé ou tout simplement sur les réseaux sociaux où des personnes vont être moquées pour leurs particularités, leurs cultures, leurs éthnies, leur genre ou leur sexualité. Le chanteur va donc à travers ce clip ludique et fascinant dénoncer certains actes fait contre des gens que la société rejette.</p>
-    <h1>Un chanteur à l'imagination fascinante</h1>
-      <img src="#" alt="Daniel Virgil">
-      <p>Daniel Virgil Maisonneuve de son nom de scène Sub urban est un chanteur producteur et un auteur compositeur né le 22 octobre 1999 aux états unis il est connu pour sa chanson Cradles sortie en 2019 il est aussi connu pour son style unique et ses clips vidéo perturbants et fascinants. Il à réalisé sa chanson Freak de l’album Thrill seeker sortie en 2020 en collaboration avec la chanteuse Rei Ami pour laquelle il à aussi sorti un clip.</p>
+      <div><p class="freak__exergue">“oh une si belle collection d’étrangetés”</p></div>
+    <h1 class="freak__titles2">Plongez au coeur du spectacle</h1>
+    <p class="freak__content">Ce clip met en scène une troupe de cirque remplie de personnes diversifiés ayant des particularités physiques spéciales: nous avons une femme serpent, une contorsionniste, un homme à la force surhumaine, ces personnage semblent tous s’amuser sans être gênés par leur apparences particulières ils profitent de ces particularités pour faire vivre le cirque et parce qu’ils sont entourés de personnes comme eux devant qui ils n’auront pas à paraitre “parfait” et avec qui ils sont à l’aise.</p> 
+    <p class="freak__content">cependant la fin du clip nous montre aussi le côté sombre du cirque avec des personnages qui sont utilisés et mis dans des situation dangereuses juste pour divertir, c’est un parallèle à la vrai vie où ce genre de cirque à dejà existé ou tout simplement sur les réseaux sociaux où des personnes vont être moquées pour leurs particularités, leurs cultures, leurs éthnies, leur genre ou leur sexualité.</p>
+      <p class="freak__content">Le chanteur va donc à travers ce clip ludique et fascinant dénoncer certains actes fait contre des gens que la société rejette.</p>
+    <h1 class="freak__titles2">Un chanteur à l'imagination fascinante</h1>
+      <img class="freak__img" src="/public/img/image_sub_urban.webp" alt="Daniel Virgil">
+      <p class="freak__content">Daniel Virgil Maisonneuve de son nom de scène Sub urban est un chanteur producteur et un auteur compositeur né le 22 octobre 1999 aux états unis il est connu pour sa chanson Cradles sortie en 2019.</p>
+        <p class="freak__content">Il est aussi connu pour son style unique et ses clips vidéo perturbants et fascinants. Il à réalisé sa chanson Freak de l’album Thrill seeker sortie en 2020 en collaboration avec la chanteuse Rei Ami pour laquelle il à aussi sorti un clip.
+      </p>
   </article>
   </section>
 </main>
+
+<ul>
+  <a href="index.html"><img class="freak__link" src="/public/icon/homepage.svg" alt="Page d'accueil"><h1></h1></a>
+</ul>
+
+
+<footer class="footer">
+  <h3 class="footer__categorie">Nous suivre</h3>
+  <ul class="footer__icon">
+    <a class="footer__item" href="https://www.instagram.com/mmi_montbeliard/">
+      <img src="/public/icon/instagram.svg" alt="Page instagram">
+    </a>
+    <a class="footer__item2" href="https://t.co/dzVvmIOrfw">
+      <img src="/public/icon/facebook.svg" alt="Page facebook">
+    </a>
+    <a class="footer__item3" href="https://twitter.com/mmimontbeliard">
+      <img src="/public/icon/twitter.svg" alt="Page twitter">
+    </a>
+  </ul>
+  <nav class="footer__border">
+    <a class="footer__item4" href="a-propos.html">à propos
+    </a>
+    <a class="footer__item5" href="Contact.html">Contact
+    </a>
+    <a class="footer__item6" href="Glossaire.html">Glossaire
+    </a>
+    <a class="footer__item7" href="Autres projets.html">Autres projets
+    </a>
+  </nav>
+  <div>
+    <h3 class="footer__categorie">Mentions légales</h3>
+    <p class="footer__exercice">Projet réalisé dans le cadre d’un exercice 
+      pédagogique au département <a href="https://mmi-montbeliard.nathanvanbignootvincler.fr/"> MMi de Montbéliard.</a></p>
+    <p class="footer__exercice">Fait par Marwa Nezzar MMI 1 groupe B2</p>
+  </div>
+  </footer>
