@@ -263,6 +263,24 @@
     margin-left: 65px;
 }
 
+.timeline{
+    margin-left: 40px ;
+    width: 280px;
+    border-left: 2px solid var(--menu);
+    padding: 0 20px 0 30px;
+}
+
+.timeline__legend{
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
 /* article alice au pays des merveilles */
 .alice{
     background-color: var(--article);
