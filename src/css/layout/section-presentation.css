@@ -48,7 +48,7 @@
     width: 350px;
     margin: auto;
     margin-top: 30px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin-bottom: 30px;
     padding-bottom: 5px;
     padding-top: 15px;
@@ -67,19 +67,26 @@
     line-height: 20px;
     color: #000000;
     margin-top: 0;
-    margin-left: 10px;
+    margin-left: 15px;
+
+    border-bottom: 3px solid var(--menu);
+    width: 320px;
+    padding-bottom: 3px;
 }
 
 .homepage__resume{
-    font-family: 'Cinzel';
+    font-family:'Franklin Gothic light', 'Arial Narrow', Arial, sans-serif;
     font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
+    font-weight: 400;
+    font-size: 15px;
     line-height: 20px;
     color: #000000;
     text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .homepage__link{
     color: #000000;
+    text-decoration: none;
 }
